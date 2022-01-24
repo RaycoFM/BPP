@@ -6,6 +6,10 @@ indexColumn = 0
 totalgastos = 0
 totalingresos = 0
 
+""""
+Agregamos este comentario a modo de cambios en el proyecto
+
+"""
 
 try:
     data = pandas.read_csv('finanzas2020.csv', sep='\t')
